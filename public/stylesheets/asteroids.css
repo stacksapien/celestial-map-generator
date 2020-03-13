@@ -1,0 +1,11 @@
+body { margin:0; padding:0; _overflow: hidden;  }
+canvas { z-index: 100; cursor:hand; cursor:grab; cursor:-moz-grab; cursor:-webkit-grab; /*cursor: crosshair!important;*/ }
+canvas:active { cursor: grabbing; cursor: -moz-grabbing; cursor: -webkit-grabbing; }
+
+#map { display: inline-block; width:720; height:720; background: #000; background-color:#000;  }
+
+.dot { fill: #fff; }
+.line { stroke: #fff; stroke-width: 1px; }
+.ctrl { position:relative; top:-2px; left:2px; color: #fff; font: normal 16px sans-serif; margin: 0 0 0 2px; }
+.button { display: inline-block; background-color: rgba(255,255,255,0.1); border:1px solid #fff; border-radius:3px; color:inherit; font:inherit; z-index: 101; cursor:pointer; margin: 0 6px; }
+.button:hover { background-color: rgba(255,255,255,0.2); }
